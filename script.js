@@ -6,6 +6,7 @@ let menulisttwo = document.getElementById("menulisttwo")
 let secloc = document.getElementById("mainloc")
 let about = document.getElementById("about")
 let contact = document.getElementById("contacttwo")
+let hometwo = document.getElementById("hometwo")
 let reservationbtn = document.getElementById("reservationbtn")
 let resevationkey = document.getElementById("resevationkey")
 let fullName = document.getElementById("fullName")
@@ -99,7 +100,9 @@ about.addEventListener("click",()=>{
 contact.addEventListener("click",()=>{
     menulisttwo.style.left="-100%" 
 })
-
+hometwo.addEventListener("click",()=>{
+    menulisttwo.style.left="-100%" 
+})
 reslocation.addEventListener("focus",()=>{
     res0.style.visibility = "visible"
 })
